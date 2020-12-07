@@ -1,18 +1,12 @@
-maiorNumero();
-function maiorNumero() {
-  let n1 = 33;
-  let n2 = 612;
-  let n3 = 107;
+function maiorNumero(n1, n2, n3) {
   let maior = undefined;
 
   if (n1 >= n2 && n1 >= n3) {
-    maior = n1;
-    console.log(`${maior}`);
+    return (maior = n1);
   } else if (n2 >= n1 && n2 >= n3) {
-    maior = n2;
-    console.log(`${maior}`);
+    return (maior = n2);
   } else {
-    maior = n3;
-    console.log(`${maior}`);
+    return (maior = n3);
   }
 }
+console.log(maiorNumero(11, 55, 6))
