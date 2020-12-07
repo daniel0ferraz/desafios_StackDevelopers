@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desafio 1</title>
+  <style>
+    body {
+      background-color: hsla(207, 78%, 40%, 0.726);
+      color: #fff;
+      font: normal 20px arial;
+
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Atividade 1 - 07/12/2020</h2>
+  <li>Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.</li>
+   
+  <script>
+    var valorhora = window.prompt('Quanto voce ganha por hora:')
+    var horas = window.prompt('Informe o numero de horas trabalhadas:')
+    let salario = horas * valorhora;
+
+    document.write(`<h3>Horas Trabalhadas: ${horas}</h3>`)
+    document.write(`<h3>Ganho por hora: ${valorhora}</h3>`)
+    document.write(`<h3>Salario Total: ${salario}</h3>`)
+  </script>
+</body>
+
+</html>
